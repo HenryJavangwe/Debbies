@@ -1,0 +1,162 @@
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Titillium Web', sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 1px;
+}
+
+.container-fluid {
+    padding: 0;
+}
+.container {
+    max-width: 1350px;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* [ 01 Start Header ] */
+ .header-wrapper {
+    padding: 15px 0;
+    width: 100%;
+    height: 100vh;
+    background-image: url(../assets/Img/Debbie.jpeg);
+    background-size: cover;
+    background-position: center;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 999;
+    box-shadow: 0 4px 2px 0 rgba(119, 119, 119, 0.12);
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
+}
+.navbar-nav {
+    float: right;
+}
+
+/*.header-wrapper.header-fixed{
+ position: fixed;
+ background-color: #fc363b;
+ color: #fff;
+ -webkit-animation: 300ms ease-in-out 0s normal none 1 running fadeInDown;
+ animation: 300ms ease-in-out 0s normal none 1 running fadeInDown;
+ box-shadow: 0 4px 2px 0 rgba(119, 119, 119, 0.12) !important;
+
+}
+.header-wrapper.header-fixed .header-logo{
+    max-width:52px;
+}
+
+.header-logo{
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
+    max-width: 60px;
+}
+.header-transparent .header-wrapper {
+    color: #fff;
+    box-shadow: none;
+    fill: #fff;
+
+}
+.header-inner{
+    position: relative;
+    z-index: 999;
+}
+.header-wrapper.is-visible{
+    color: #fff;
+    background-color: #29292e;
+} */
+/* 
+.header-logo.logo-red.is-hidden{
+    display: none;
+}
+.header-logo.logo-white.is-visible{
+ display: block;
+} */
+
+/* .navbar-toggle {
+    padding: 0;
+    -webkit-transition: .5s ease-in-out;
+    -moz-transition: .5s ease-in-out;
+    -o-transition: .5s ease-in-out;
+    transition: .5s ease-in-out;
+    width: 42px;
+    display: inline-block;
+    border-radius: 100%;
+    text-align: center;
+    position: relative;
+    z-index: 9999;
+    cursor: pointer;
+}
+
+.navbar-toggle:hover .icon-bar.bar-top {
+    margin-left: 0;
+} */
+
+/* .navbar-toggle:hover .icon-bar.bar-bottom {
+    margin-left: 0;
+}
+
+.navbar-toggle .icon-bar {
+    display: block;
+    height: 5px;
+    width: 100%;
+    background-color: currentColor;
+    border-radius: 50px;
+    -webkit-transition: .3s;
+    -o-transition: .3s;
+    transition: .3s;
+}
+
+.navbar-toggle .icon-bar.bar-top {
+    width: 50%;
+    margin-left: 50%;
+} */
+
+/* .navbar-toggle .icon-bar.bar-middle {
+    margin: 8px 0;
+}
+
+.navbar-toggle .icon-bar.bar-bottom {
+    width: 80%;
+    margin-left: 20%;
+} */
+
+/* .navbar-toggle.active .icon-bar.bar-top {
+    width: 50%;
+    margin-left: 50%;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    top: 1px;
+    position: absolute;
+    left: -18px;
+} */
+
+/* .navbar-toggle.active .icon-bar.bar-middle {
+    margin: 8px 0;
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+} */
+
+/* .navbar-toggle.active .icon-bar.bar-bottom {
+    width: 50%;
+    margin-left: 20%;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    position: absolute;
+    bottom: 1px;
+    right: 4px;
+} */
