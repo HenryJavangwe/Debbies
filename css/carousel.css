@@ -10,15 +10,15 @@
 .catalogue-item.h4 {
     transform: scale(.2) translateY(-160%);
 }
-
+/* Coming soon */
 .coming-soon {
     position: relative;
     transition: all 0.3s ease-out 0s;
-  }
-  
-  .coming-soon::before {
+}
+
+.coming-soon::before {
     content: "";
-    background: url(https://themavenacademy.one/images/comming-soon.svg) no-repeat top right;
+    background: url(../assets/Img/comming-soon.svg) no-repeat top right;
     background-color: #eebabc67;
     width: 100%;
     height: 100%;
