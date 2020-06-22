@@ -1,0 +1,24 @@
+/* [ 01 footer wrapper ] */
+.footer-wrapper {
+    padding-top: 20px;
+}
+/* [ 02 upper footer - get n touch btn ] */
+.footer-top {
+    padding: 100px 0;
+}
+/* [ 03 lower footer - copyright declaration and social icons ] */
+.footer-lower  {
+    padding: 50px 0;
+    background-color: #696969;
+    color: hsl(358, 60%, 83%);
+}
+
+.footer-lower ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style-type: none;
+}
+.footer-lower ul li {
+    margin: auto;
+}

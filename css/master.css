@@ -1,6 +1,9 @@
 *, ::after, ::before {
     box-sizing: border-box;
 }
+html, body {
+    overflow-x: hidden;
+}
 body {
     background-color: #f3f3f3;
     font-family: 'Titillium Web', sans-serif;
@@ -35,6 +38,7 @@ body {
 .header-wrapper {
     padding: 10px 0;
     position: absolute;
+    z-index: 1000;
 }
 .header-wrapper.header-fixed {
     position: fixed;
@@ -137,10 +141,23 @@ body {
     text-transform: initial;
     padding: 10px 33px;
 }
-
+.btn-outline-theme-footer {
+    border: 3px solid #eebabccb;
+    color: #252525;
+    border-radius: 25px;
+    background-color: transparent;
+    font-size: 16px;
+    font-weight: 600;
+    min-height: 50px;
+    border-width: 2px;
+    min-width: 180px;
+    text-transform: initial;
+    padding: 10px 33px;
+}
 .btn-outline-theme:hover, 
 .btn-outline-theme:focus, 
-.btn-outline-theme:active, 
+.btn-outline-theme:active,
+.btn-outline-theme-footer:hover, 
 .btn.btn-outline-theme:hover:active:focus {
     background-color: #696969;
     color: hsl(359, 87%, 85%);

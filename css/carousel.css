@@ -1,4 +1,7 @@
 /* [ 01 Catalogue containers ] */
+.owl-carousel{
+    z-index: 0;
+}
 .catalogue-item {
     height: 10em;
     background-color: #9e9e9e;
