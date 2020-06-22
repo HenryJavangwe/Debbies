@@ -30,4 +30,15 @@
     top: 0px;
     z-index: 1;
     cursor: pointer;
-  }
+}
+
+/* [ 02 About Page carousel ] */
+.about-carousel-item {
+    border: #eebabccb 4px solid;
+    filter: grayscale(.3);
+    transition: all .4s;
+}
+.about-carousel-item:hover {
+    transform: scale(1.5) translateY(-15px);
+    filter: none;
+}
