@@ -1,0 +1,30 @@
+/* [ 01 Catalogue containers ] */
+.catalogue-item {
+    height: 10em;
+    background-color: #9e9e9e;
+    color: #ffffff;
+    padding: 50px;
+}
+/* Carousel item Icon */
+.icon-services,
+.catalogue-item.h4 {
+    transform: scale(.2) translateY(-160%);
+}
+
+.coming-soon {
+    position: relative;
+    transition: all 0.3s ease-out 0s;
+  }
+  
+  .coming-soon::before {
+    content: "";
+    background: url(https://themavenacademy.one/images/comming-soon.svg) no-repeat top right;
+    background-color: #eebabc67;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    z-index: 1;
+    cursor: pointer;
+  }
